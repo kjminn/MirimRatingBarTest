@@ -7,6 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RatingBar
+        android:id="@+id/rating_bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
+    <RatingBar
+        android:id="@+id/rating_bar2"
+        style="?android:attr/ratingBarStyleSmall"
+        android:stepSize="1"
+        android:numStars="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
+    <RatingBar
+        android:id="@+id/rating_bar3"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:rating="2.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_incr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="증가시키기"/>
+    <Button
+        android:id="@+id/btn_decr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="감소시키기"/>
 </LinearLayout>
